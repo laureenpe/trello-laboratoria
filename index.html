@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/estilos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--
+    <div id="nav-bar"></div>
+    <div id="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                <div id="new-text">
+                    <div id="add-a-list-btn"></div>
+                    <input id="list-input-box" placeholder="Añadir una lista..." />
+                    <button type="button" id="save-list-btn">Guardar</button>
+                </div> -->
+    <div id="nav-bar"></div>
+    <div id="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="new-text">
+                    <input id="list-input-box" class="add-list" placeholder="Añadir una lista..." />
+                </div>
+                <div class="new-text-gray ocultar" id="new-text-gray">
+                    <!--clase creada en css para ocultar la caja -->
+                    <input id="input-box" class="to-write" placeholder="Añadir una lista..." />
+                    <div id="list-name"></div>
+                    <div class="row" id="button-close">
+                        <div class="col-sm-4">
+                            <a class="btn btn-success save-btn" id="save-btn" href="#" role="button">Guardar</a>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="la-x" id="la-x"><span class="glyphicon glyphicon-remove"></span></div>
+                        </div>
+                    </div>
+                    <div class="row ocultar" id="button-tarea">
+
+                        <textarea id="text-tarea"></textarea>
+                        <div class="col-sm-6">
+                            <a class="add-tarea" id="save-tarea" href="#" role="button">Añadir Tarea...</a>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="la-x" id="x-tarea"><span class="glyphicon glyphicon-remove"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/javascript/javascript.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
